@@ -40,6 +40,13 @@
         <h2 id="last_update_time" style="height: 10%;">&nbsp;</h1>
         <h2 id="img_uuid" style="heigh: 10%;">&nbsp;</h5>
         <script>
+            function rename_the_file_anyway()
+            {
+                xhr = new XMLHttpRequest();
+                xhr.open('GET', 'rename_the_file_anyway.php', true);
+                xhr.send();
+            }
+            
             reloadImage();
             function goFullScreen() 
             {

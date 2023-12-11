@@ -1,7 +1,4 @@
 <?php
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
     
     // Define the path to the images directory
     $imagesDirectory = './image/';
@@ -22,7 +19,7 @@
         $timeDifference = $currentUnixEpoch - $lastModifiedTime;
 
         // Check if the file is modified within the last 5 minutes
-        if ($timeDifference < 300) 
+        if ($timeDifference < 120) 
         {
             // Generate a new file name using UUID
             $newFileName = uniqid('', true) . '.bmp';
