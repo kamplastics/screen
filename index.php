@@ -36,7 +36,7 @@
     <body>
         <h1 id="informative" onclick="goFullScreen()">Click the image or here to go full-screen</h1>
         <img id="shopImage" src="image.bmp" alt="Paul's Screen" title="Paul's image" onclick="goFullScreen()">
-        <iframe id="shopIframe" src="http://dwsvr/" style="height: 85%; width: 100%; border: none; margin: 0; padding: 0;" onclick="goFullScreen()" hidden></iframe>
+        <iframe id="shopIframe" src="http://10.20.0.219/" style="height: 85%; width: 100%; border: none; margin: 0; padding: 0;" onclick="goFullScreen()" hidden></iframe>
         <h2 id="last_update_time" style="height: 10%;">&nbsp;</h1>
         <h2 id="img_uuid" style="heigh: 10%;">&nbsp;</h5>
         <script>
